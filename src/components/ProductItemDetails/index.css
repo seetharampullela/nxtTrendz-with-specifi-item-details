@@ -1,0 +1,144 @@
+/* Write your CSS here */
+.add-to-cart-btn {
+  background-color: blue;
+  color: white;
+}
+.quantity-flex {
+  display: flex;
+  align-items: center;
+}
+.product-image {
+  width: 260px;
+  height: 450px;
+  border-radius: 10px;
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .product-image {
+    width: 280px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.image-container {
+  display: flex;
+  min-width: 250px;
+}
+@media screen and (max-width: 768px) {
+  .image-container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.error-view-image {
+  width: 50%;
+}
+
+.success-bg-container {
+  display: flex;
+  margin: 15px;
+  line-height: 1.5;
+}
+.description-para {
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .success-bg-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+}
+
+.right-side-container {
+  width: 500px;
+  margin-left: 30px;
+}
+
+.span-bold {
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .right-side-container {
+    width: 280px;
+    margin: 0px;
+  }
+}
+.rating-and-star {
+  border: 1px solid white;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.star-rating-value-container {
+  display: flex;
+}
+.rating-text {
+  color: white;
+  margin-right: 4px;
+}
+.star-image {
+  width: 25px;
+  height: 25px;
+}
+.plus-minus-btn {
+  height: 40px;
+  width: 40px;
+  border: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.count-value {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.price-value {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.add-to-cart-btn {
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
+button {
+  cursor: pointer;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.similar-prod-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .similar-prod-container {
+    flex-direction: column;
+  }
+}
+.total-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading-similar {
+  margin-left: 20px;
+}
